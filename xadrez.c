@@ -10,14 +10,14 @@ int main() {
 
     //Movendo a torre 5 casas para a direita usando for
 
-    printf("Movimento da torre!\n");
-    for(int i = 0; i>5; i++){
+    printf("Mova a torre!\n");
+    for(int i = 0; i<5; i++){
         printf("Direita!\n");
     }
 
     //movendo o bispo 5 casas na diagonal superior direita com while
 
-    printf("Movimento do Bispo!\n");
+    printf("Mova o Bispo!\n");
 
     i = 1;
     while(i<=5){
@@ -27,7 +27,7 @@ int main() {
 
     //Movendo a rainha 8 casas para a esquerda
 
-    printf("Movimento da Rainha!\n");
+    printf("Mova a Rainha!\n");
 
     i=1;
 
